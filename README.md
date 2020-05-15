@@ -4,7 +4,7 @@ This is repository conatins basic examples of how to use SSHJ library, for uploa
 The different examples, are for different authenticaion methods: password or key authentication, and remote or local server.
 
 ### Usage of key authentication
-1. Generate public and private keys using the command ```ssh key pair using ssh-keygen -a 1000 -b 4096 -o -t rsa```
+1. Generate public and private keys using the command ```ssh-keygen -a 1000 -b 4096 -o -t rsa```
 2. Keys should be placed at ```~/.ssh/``` folder and you need to have two of them:
 	- *~/.ssh/name_of_key (this is your private key)*
 	- *~/.ssh/name_of_key.pub (this is your public key)*
