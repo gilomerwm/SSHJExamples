@@ -12,3 +12,7 @@ The different examples, are for different authenticaion methods: password or key
 	- *cat ~/.ssh/name_of_key.pub >> ~/.ssh/authorized_keys*
 4. In the code where you need to add the key location **in the SFTP client**, write the path of the generated private key.
 
+### Usfull links
+ - [Set mac as SFTP server](https://www.maciverse.com/how-to-turn-on-your-macs-sftp.html)
+ - [Good explation about how to use public/private key](https://www.digitalocean.com/community/questions/ssh-server-refused-our-key)
+ - [SSHJ Client library](https://www.javadoc.io/doc/com.hierynomus/sshj/0.23.0/net/schmizz/sshj/SSHClient.html)
